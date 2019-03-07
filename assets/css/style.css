@@ -1,0 +1,196 @@
+/* * {
+    border:1px solid red
+} */
+
+body {
+    margin: 0px;
+    color: #b1b0b0;
+}
+
+.navbar {
+    height: 80px;
+}
+
+.logo {
+    width: 80px;
+    float: right;
+    padding: 20px;
+}
+
+.nav {
+    padding: 40px 0px 0px 20px;
+}
+
+.about {
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #b1b0b0;
+}
+
+a:visited {
+    color: #b1b0b0;
+}
+
+a:focus {
+    color: #0099ff;
+}
+
+a:hover {
+    color: #0099ff;
+}
+
+a:active {
+    color: #0099ff;
+}
+
+.tagline {
+    background: #f0f0f0;
+    height: 100px;
+}
+
+.tag {
+    padding: 10px;
+    text-align: center;
+    color: #0099ff;
+}
+
+.container {
+    clear: both;
+    background: #f0f0f0;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.aboutMe {
+    text-align: justify;
+    padding: 10px;
+}
+
+.footer {
+    background: #f0f0f0;
+    height: 80px;
+}
+
+.copy {
+    padding: 20px;
+    text-align: center;
+    color: #b1b0b0;
+}
+
+.contact {
+    padding: 30px;
+    text-align: center;
+    color: #0099ff;
+}
+
+.portfolio {
+    padding: 30px;
+    text-align: center;
+    color: #0099ff;
+}
+
+.heroshots {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+li img {
+    float: left;
+    width: 280px;
+    padding: 20px;
+}
+
+.contact-area {
+    width: 600px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.contact-area input,
+.contact-area textarea {
+    width: 470px;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.4em;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid #ccc;
+}
+
+.contact-area textarea {
+    height: 90px;
+}
+
+.contact-area textarea:focus,
+.contact-area input:focus {
+    border: 2px solid #900;
+}
+
+.contact-area input.submit-button {
+    width: 100px;
+    float: right;
+    color: #b1b0b0;
+    font-family: Din, Geneva, sans-serif;
+}
+
+label {
+    float: left;
+    text-align: right;
+    margin-right: 15px;
+    width: 100px;
+    padding-top: 5px;
+    font-size: 1.4em;
+}
+
+
+/* I have been dealing with this part of the homework for many hours and I can not get it to work properly. I will seek you guys assistance so I can learn how to do this. */
+
+
+
+@media screen and (max-width: 980px) {
+
+    /* The body's width will be 980px */
+    body {
+        width: 980px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    /* The body's width will be 768px */
+    body {
+        width: 768px;
+    }
+    .tagline {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (min-width: 640px) {
+
+    /* The body's width will be 640px */
+    body {
+        width: 640px;
+    }
+    .contact-area {
+        width: 300px;
+    }
+    .tagline {
+        font-size: 16px;
+    }
+}
